@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredericka+the+Great&family=Nothing+You+Could+Do&family=Parisienne&family=Permanent+Marker&display=swap");
+* {
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../img/kula.jpg);
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 1000px;
+  /* samo trenutno */
+  color: white !important;
+  font-family: 'Fredericka the Great', cursive; }
+
+.navbar-toggler {
+  background-image: url(../img/hamburger.png);
+  background-position: center;
+  background-size: auto;
+  color: transparent;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%; }
+
+.navbar a {
+  color: white;
+  font-size: 30px;
+  font-weight: bold; }
+
+.navbar-brand {
+  font-family: 'Fredericka the Great', cursive; }
+  .navbar-brand:hover {
+    opacity: 60%; }
+
+.navbar-nav a:hover {
+  color: beige;
+  transform: scale(1.4); }
+
+.navbar-nav li:last-child {
+  background: rgba(179, 152, 83, 0.8); }
+
+.navbar-nav li:not(:last-child) {
+  margin-right: 100px; }
+
+.main-text {
+  display: flex;
+  justify-content: center; }
+  .main-text h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 140px;
+    text-align: center;
+    color: white; }
+
+.p-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px; }
+  .p-text h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    color: white; }
+
+.p2-text {
+  display: flex;
+  justify-content: center; }
+  .p2-text h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    color: white; }
+
+.activ {
+  background: rgba(179, 152, 83, 0.8);
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 300px; }
+  .activ .activ-list {
+    display: flex;
+    justify-content: center;
+    list-style: none; }
+    .activ .activ-list li:not(:last-child) {
+      margin-right: 200px; }
+    .activ .activ-list li a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none; }
+    .activ .activ-list li {
+      align-items: center;
+      padding: 10px; }
+  .activ li:hover {
+    transform: scale(1.4); }
+    .activ li:hover a:hover {
+      color: beige; }
+
+/*******************************************
+
+Gallery Page
+
+*******************************************/
+.image1 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 100px; }
+
+.image1 img {
+  width: 500px;
+  border-radius: 2%;
+  float: left;
+  margin-left: 50px; }
+
+.image1 p {
+  color: black;
+  text-align: center; }
+
+.image2 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 100px; }
+
+.image2 img {
+  width: 500px;
+  border-radius: 2%;
+  float: right;
+  margin-right: 50px; }
+
+.image2 p {
+  color: black;
+  text-align: center;
+  width: 100%;
+  text-align: center; }
+
+.line {
+  text-decoration: underline;
+  width: 100%;
+  height: 1px !important;
+  background-color: rgba(224, 204, 135, 0.8);
+  margin-bottom: 50px;
+  position: relative; }
+
+.row {
+  margin-bottom: 100px; }
+
+.row img {
+  width: 100%;
+  padding: 10px; }
+  .row img:hover {
+    transform: scale(1.6); }
+
+.button {
+  padding-bottom: 100px;
+  /* Ovo izbrisi posle, stavio sam samo da bih video malo vise dole, ali posle ce da smeta */ }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background: #cdc1a3;
+  color: white;
+  font-size: 30px;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  border-radius: 10%; }
+
+.btn:hover {
+  background: #ffebb7;
+  color: grey; }
+
+.footer {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #cdc1a3;
+  border-top: 3px solid grey; }
+  .footer .footer-top {
+    display: flex;
+    justify-content: center; }
+    .footer .footer-top .soc-net {
+      margin: 0;
+      padding: 0; }
+      .footer .footer-top .soc-net a {
+        width: 50px;
+        height: 100px; }
+        .footer .footer-top .soc-net a img {
+          width: 100px;
+          margin-top: 50px;
+          margin-bottom: 25px; }
+          .footer .footer-top .soc-net a img:hover {
+            opacity: 50%;
+            transform: scale(1.2); }
+      .footer .footer-top .soc-net li {
+        list-style: none; }
+  .footer .all-rights {
+    color: black;
+    font-size: 10px;
+    margin-left: 15px;
+    padding-bottom: 20px;
+    font-family: sans-serif; }
+
+.gallery {
+  margin-top: 150px; }
+  .gallery img {
+    border: 1px solid white;
+    margin-bottom: 20px; }
+
+/*******************************************
+
+Gallery Page END
+
+*******************************************/
+/*******************************************
+
+EXPLORE PAGE
+*******************************************/
+.coming-soon {
+  overflow: hidden; }
+
+/*******************************************
+
+EXPLORE PAGE END
+*******************************************/
+/*******************************************
+
+MAP PAGE
+*******************************************/
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  width: 100%;
+  height: 500px;
+  border: 5px solid white; }
+
+/*******************************************
+
+MAP PAGE END
+*******************************************/
+
+/*# sourceMappingURL=main.css.map */
