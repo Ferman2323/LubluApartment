@@ -6,15 +6,14 @@
 body {
   background-image: url(../img/kula.jpg);
   background-repeat: no-repeat;
+  background-size: auto;
   overflow-y: scroll;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 1000px;
-  /* samo trenutno */
   color: white !important;
-  font-family: 'Fredericka the Great', cursive; }
+  font-family: "Fredericka the Great", cursive; }
 
 .navbar-toggler {
   background-image: url(../img/hamburger.png);
@@ -22,8 +21,7 @@ body {
   background-size: auto;
   color: transparent;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 .navbar a {
   color: white;
@@ -31,7 +29,7 @@ body {
   font-weight: bold; }
 
 .navbar-brand {
-  font-family: 'Fredericka the Great', cursive; }
+  font-family: "Fredericka the Great", cursive; }
   .navbar-brand:hover {
     opacity: 60%; }
 
@@ -157,8 +155,7 @@ Gallery Page
     transform: scale(1.6); }
 
 .button {
-  padding-bottom: 100px;
-  /* Ovo izbrisi posle, stavio sam samo da bih video malo vise dole, ali posle ce da smeta */ }
+  margin-top: 100px; }
 
 .btn {
   display: flex;
@@ -182,8 +179,11 @@ Gallery Page
   width: 100%;
   padding: 0;
   margin: 0;
-  background-color: #cdc1a3;
-  border-top: 3px solid grey; }
+  margin-top: 205px;
+  background-image: url(../../img/footer.jpg);
+  background-size: contain;
+  -webkit-box-shadow: 1px -3px 26px 5px #000000;
+  box-shadow: 1px -3px 26px 5px #000000; }
   .footer .footer-top {
     display: flex;
     justify-content: center; }
@@ -250,6 +250,23 @@ MAP PAGE
 /*******************************************
 
 MAP PAGE END
+*******************************************/
+/*******************************************
+
+News Page
+*******************************************/
+.news {
+  margin-top: 100px; }
+  .news h2 {
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px; }
+
+/*******************************************
+
+NEWS PAGE END
 *******************************************/
 
 /*# sourceMappingURL=main.css.map */
