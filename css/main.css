@@ -21,7 +21,8 @@ body {
   background-size: auto;
   color: transparent;
   background-repeat: no-repeat;
-  width: 100%; }
+  width: 20%;
+  height: 100%; }
 
 .navbar a {
   color: white;
@@ -268,5 +269,71 @@ News Page
 
 NEWS PAGE END
 *******************************************/
+/******************** 
+
+MEDIA QUERY MOBILE
+
+********************/
+/********************/
+@media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+    width: 100%; }
+
+  .navbar button {
+    margin-top: 60px; }
+
+  .navbar a {
+    font-size: 20px; }
+
+  .navbar-nav a:hover {
+    transform: none; }
+
+  .p-text h3 {
+    font-size: 25px; }
+
+  .main-text h2 {
+    font-size: 65px; }
+
+  .activ {
+    display: flex;
+    padding: 0; }
+    .activ ul {
+      display: flex;
+      flex-direction: column;
+      font-size: 20px; }
+      .activ ul li:hover {
+        transform: none; }
+
+  .image1 {
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 100px; }
+
+  .image1 p {
+    display: none; }
+
+  .image2 {
+    margin-bottom: 100px; }
+
+  .image2 img {
+    width: 70%;
+    float: none;
+    margin-right: 0px;
+    margin-left: 50px; }
+
+  .image2 p {
+    display: none; }
+
+  .row img:hover {
+    transform: none; }
+
+  .footer .footer-top .soc-net {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+/********************/
 
 /*# sourceMappingURL=main.css.map */
